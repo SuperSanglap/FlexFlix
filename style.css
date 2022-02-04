@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.max-width {
+    max-width: 1300px;
+    padding-left: 0 80px;
+    margin: auto;
+}
+
+/*Home Section Styling.*/
+.home {
+    display: flex;
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1 {
+    font-size: 27px;
+}
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-2 span{
+    color: red;
+}
+.home .home-content .text-3 {
+    font-size: 30px;
+    margin: 5px 0;
+    font-family: 'Lora', sans-serif;
+    font-weight: 600;  
+}
+.home .home-content .text-3 a {
+    display: inline-block;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid red;
+    transition: all 0.3s ease;
+}
+.home .home-content .text-3 a:hover{
+    color: red;
+    background: none;
+}
